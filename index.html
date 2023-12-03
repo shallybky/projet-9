@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 <meta name=viewport content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Capturer les moments les plus précieux de votre vie avec créativité et passion. Photographe professionnelle basée à Bordeaux, spécialisée dans les portraits, les mariages et les événements. Des images authentiques et intemporelles qui racontent votre histoire. Réservez votre séance photo dès maintenant !">
@@ -68,7 +68,7 @@
 
 <body>
 <div class=top-header>
-<h3 class=name>Nina Carducci</h3>
+<h3 class="name">Nina Carducci</h3>
 <div class=nav>
 <ul>
 <li><a href=#about>À propos</a></li>
@@ -207,12 +207,15 @@ C’est ce que je vous propose : saisir ces merveilleux moments au travers de mo
 <p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 <form action method=post>
 <label>Nom</label>
-<input type=text name=nom id=nom>
-<label>Email</label>
-<input type=email name=email id=email>
-<label>Message</label>
-<textarea name=message id=message cols=30 rows=10></textarea>
-<input type=submit value="Envoyer"/>
+<form action="your_action_url" method="post">
+<label for="nom">Nom</label>
+<input type="text" name="nom" id="nom">   
+<label for="email">Email</label>
+<input type="email" name="email" id="email">   
+<label for="message">Message</label>
+<textarea name="message" id="message" cols="30" rows="10"></textarea>
+<input type="submit" value="Envoyer">
+</form>
 </form>
 </div>
 <div class="picture right">
