@@ -169,7 +169,7 @@ body {
     padding: 2em 0;
 }
 .service {
-    background-color: white;
+    background-color: rgb(229, 229, 229);
     max-width: 390px;
     width: 30%;
     height: 337px;
